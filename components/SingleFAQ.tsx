@@ -47,7 +47,7 @@ function SingleFAQ({
     >
       <div tabIndex={-1} className="flex justify-between items-center gap-2">
         <h2
-          className="text-base font-bold tracking-wide py-6"
+          className="text-base font-bold tracking-wide sm:py-6 py-4"
           id={`panel${id}-title`}
           tabIndex={-1}
         >
@@ -73,7 +73,7 @@ function SingleFAQ({
         aria-hidden={!isOpen}
       >
         <div>
-          <p className="text-base mb-6">{answer}</p>
+          <p className="text-base sm:mb-6 mb-4">{answer}</p>
         </div>
       </div>
     </div>
