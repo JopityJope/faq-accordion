@@ -42,7 +42,7 @@ export default function Home() {
       <div className="bg-[url('/background-pattern-desktop.svg')] bg-no-repeat bg-cover h-80"></div>
       <div
         className="bg-white absolute w-[90%] md:w-[38rem]   sm:top-40 top-[2.5%] left-[50%] translate-x-[-50%]
-      p-10 rounded-xl  md:rounded-3xl "
+      sm:p-10  sm:pr-8 p-8 pr-6 rounded-xl  md:rounded-3xl "
       >
         <div className="flex gap-4 mb">
           <Image
